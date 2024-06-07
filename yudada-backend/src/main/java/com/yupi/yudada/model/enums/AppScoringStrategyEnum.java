@@ -9,8 +9,7 @@ import java.util.stream.Collectors;
 /**
  * App 评分策略枚举
  *
- * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
- * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
+ * @author mar1
  */
 public enum AppScoringStrategyEnum {
 
