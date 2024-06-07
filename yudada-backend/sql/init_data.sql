@@ -1,5 +1,4 @@
 -- 切换库
-create database if not exists yudada;
 use yudada;
 
 -- 用户表初始数据

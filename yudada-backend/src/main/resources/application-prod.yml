@@ -1,5 +1,4 @@
 # 线上配置文件
-# @author mar1
 server:
   port: 8101
 spring:

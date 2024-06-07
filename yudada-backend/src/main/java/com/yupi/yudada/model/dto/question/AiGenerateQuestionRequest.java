@@ -1,33 +1,32 @@
-package ${packageName}.model.dto.${dataKey};
+package com.yupi.yudada.model.dto.question;
 
 import lombok.Data;
 
 import java.io.Serializable;
-import java.util.List;
 
 /**
- * 创建${dataName}请求
+ * AI 生成题目请求
  *
  * @author <a href="https://github.com/liyupi">程序员鱼皮</a>
  * @from <a href="https://www.code-nav.cn">编程导航学习圈</a>
  */
 @Data
-public class ${upperDataKey}AddRequest implements Serializable {
+public class AiGenerateQuestionRequest implements Serializable {
 
     /**
-     * 标题
+     * 应用 id
      */
-    private String title;
+    private Long appId;
 
     /**
-     * 内容
+     * 题目数
      */
-    private String content;
+    int questionNumber = 10;
 
     /**
-     * 标签列表
+     * 选项数
      */
-    private List<String> tags;
+    int optionNumber = 2;
 
     private static final long serialVersionUID = 1L;
 }

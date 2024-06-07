@@ -72,3 +72,6 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.yupi.yudada.controller
+# AI 配置
+ai:
+  apiKey: 8f70a2f7eef0214cf49e9c738d86d936.psXMjTESjvzFTZPE
